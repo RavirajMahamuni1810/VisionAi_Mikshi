@@ -1,0 +1,59 @@
+# ============================================================
+#  Maven / build output
+# ============================================================
+/target/
+.apt_generated/
+.apt_generated_tests/
+bin/
+
+# ============================================================
+#  Eclipse workspace metadata (project files .project/.classpath/.settings are kept)
+# ============================================================
+.metadata/
+.recommenders/
+
+# ============================================================
+#  Test execution output & reports (regenerated every run)
+# ============================================================
+/test-output/
+/reports/
+/allure-results/
+/.allure/
+.allure/
+.scannerwork/
+/python/__pycache__/
+
+# ============================================================
+#  Browser session / profile data  ‚Üí  SENSITIVE, never commit
+#  (contains cookies, logged-in sessions, saved credentials)
+# ============================================================
+playwright-user-data/
+edge-user-data/
+*-user-data/
+
+# ============================================================
+#  ML models ‚Äì auto-downloaded from HuggingFace at runtime (~175 MB)
+# ============================================================
+/models/
+
+# ============================================================
+#  Generated runtime data files
+# ============================================================
+data/addmaster.properties
+
+# ============================================================
+#  Archives / misc
+# ============================================================
+*.zip
+
+# ============================================================
+#  OS junk
+# ============================================================
+Thumbs.db
+.DS_Store
+
+# ============================================================
+#  Local secrets (in case you keep a local override file ‚Äì never commit)
+# ============================================================
+secrets.properties
+.env

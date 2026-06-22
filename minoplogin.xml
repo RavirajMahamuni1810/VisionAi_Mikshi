@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PW" parallel="classes" thread-count="1">
+	<parameter name="excelName" value="MinopTandA" />
+	<parameter name="deviceName" value="chrome" />
+	<test name="Web">
+		<classes>
+			<class name="pw.tests.minop.MinopLoginTest" />
+		</classes>
+	</test>
+</suite>

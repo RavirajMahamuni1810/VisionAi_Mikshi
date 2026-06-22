@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PW" parallel="none" thread-count="1" verbose="2">
+	<parameter name="excelName" value="MinopTandA" />
+	<parameter name="deviceName" value="chrome" />
+	<test name="Web">
+		<classes>
+			<!-- The original XML referenced pw.test.visionAi.UploadVideoTest
+			but the repository contains
+				 pw.test.visionAi.Old_UploadVideoTest (see src/test/java/pw/test/visionAi).
+			Update the
+				 class reference to the existing class so TestNG can find and load it. If you
+			prefer
+				 to run a different class, change this name accordingly or rename the Java
+			class. -->
+			<class name="pw.test.visionAi.Old_UploadVideoTest" />
+		</classes>
+	</test>
+</suite>
